@@ -1,0 +1,23 @@
+package hilos_caballos;
+
+import hilos_caballos.otrohilo;
+
+public class simullacion_carrera {
+
+	public static void main(String[] args) {
+		otrohilo d1 = new otrohilo("suertudo");
+		otrohilo d2 = new otrohilo("veloz");
+		otrohilo d3 = new otrohilo("corredor");
+		otrohilo d4 = new otrohilo("timmy");
+		otrohilo d5 = new otrohilo("larry");
+		otrohilo d6 = new otrohilo("garry");
+		d1.start();
+		d2.start();
+		d3.start();
+		d4.start();
+		d5.start();
+		d6.start();
+
+	}
+
+}
